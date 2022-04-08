@@ -1,10 +1,10 @@
 import './style.css';
 
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 // import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 
-const monkeyUrl = new URL('./donut.glb', import.meta.url);
+// const monkeyUrl = new URL('./donut.glb', import.meta.url);
 
 const scene = new THREE.Scene();
 
